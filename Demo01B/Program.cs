@@ -26,15 +26,15 @@ namespace Demo01B
             };
             persona.AsignarNombresCompletos();
 
-            Triangulo triangulo = new Triangulo();
-            triangulo.Altura = 5;
-            triangulo.Base = 6;
-            triangulo.CalcularArea();
+            //Triangulo triangulo = new Triangulo();
+            //triangulo.Altura = 5;
+            //triangulo.Base = 6;
+            //triangulo.CalcularArea();
 
 
-            Console.WriteLine(triangulo.CalcularArea());
-            Console.WriteLine(persona.NombresCompletos);
-            Console.WriteLine("Hola Mundo");
+            //Console.WriteLine(triangulo.CalcularArea());
+            //Console.WriteLine(persona.NombresCompletos);
+            //Console.WriteLine("Hola Mundo");
             Console.Read();
 
 
@@ -45,9 +45,21 @@ namespace Demo01B
                 Nota = 20
             };
 
-           
 
 
+            Triangulo tri = new Triangulo
+            {
+                X1 = 0,
+                Y1 = 0,
+                X2 = 4,
+                Y2 = 0,
+                X3 = 4,
+                Y3 = 3
+            };
+
+  
+            Console.WriteLine($"Perímetro del triángulo: {tri.Perimetro}");
+            Console.WriteLine($"Área del triángulo: {tri.Area}");
 
         }
 

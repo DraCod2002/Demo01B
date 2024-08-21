@@ -37,6 +37,19 @@ namespace Demo01B
             Console.WriteLine("Hola Mundo");
             Console.Read();
 
+
+            Estudiante estudiante = new Estudiante
+            {
+                Nombres = "Pedro",
+                Apellidos = "Hernandez",
+                Nota = 20
+            };
+
+           
+
+
+
         }
+
     }
 }
